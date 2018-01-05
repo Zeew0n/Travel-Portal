@@ -1,0 +1,17 @@
+﻿.tbl-double-column 
+{
+    float:left; 
+    width:190px; 
+    margin-bottom:10px;
+}
+.multiCityParam
+{
+   
+    border-bottom: 1px dotted #CCCCCC;
+     background-color:#fff;
+     overflow: hidden;
+}
+.multiCityParamDate
+{
+    width:110px;
+}

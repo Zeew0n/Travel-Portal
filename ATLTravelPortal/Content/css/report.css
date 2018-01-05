@@ -1,0 +1,44 @@
+﻿.reportFilter
+{
+  margin-top:5px;
+  margin-left: 0px;
+}
+.reportLeftDiv
+{
+    width: 90%; float:left;
+}
+.rptSearchResult
+{
+    clear: both;
+   width:100%;
+   padding-top:10px;
+}
+.rptNoRecord
+{
+    
+}
+.padding-lft-130 { padding-left:130px;}
+
+div.exportPopUp {
+    background-color: #FFFED5;
+    border: 1px solid #F7CF71;
+    box-shadow: 3px 3px 2px #CCCCCC;
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    width: 125px;
+    z-index: 102;
+}
+div.exportPopUp ul { list-style:none; margin-left: 5px; background-color:#fff;}
+div.exportPopUp ul li.GridItem { padding-right: 100px; border-bottom:1px solid #ccc;}
+div.exportPopUp ul li.GridItem input { border:none;}
+div.exportPopUp ul li.GridRowOver { background:none;background-color:none; padding-right: 100px;  border-bottom:1px solid #ccc;}
+div.exportPopUp ul li.GridRowOver input { background:none; background-color:none; border:none; color:#01538e; }
+
+.box1-row-content div input {
+    border: 1px solid #D5D5D5;
+    font-size: 11px;
+    height: 18px;
+    padding: 0 3px;
+    width: 173px;
+}

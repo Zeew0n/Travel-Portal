@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+.redtxt { color:red; width:10px; text-align:center; margin-left:3px;}
+
+.txtstyle1 {}
+.txtstyle2 { font-weight:bold; line-height:18px;color:navy;}

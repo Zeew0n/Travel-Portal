@@ -1,0 +1,153 @@
+﻿.pager
+{
+    border-top: 1px solid #B5C7D7;
+    height: 22px;
+    padding: 2px 0;
+    text-align: center;
+}
+span.disabled
+{
+    border: 1px solid #DDDDDD;
+    color: #004A93;
+    width: 15px;
+}
+
+.pager span
+{
+    margin: 0 2px;
+    padding: 2px 7px;
+    text-align: center;
+}
+span.current, span.pageActiveLink:hover
+{
+    background: url("../../../Content/Images/bg_nav.gif") repeat-x scroll 0 0 transparent;
+    border: 1px solid #004A93;
+    color: #FFFFFF;
+    width: 15px;
+}
+span.pageActiveLink
+{
+    border: 1px solid #DDDDDD;
+    color: #004A93;
+    width: 15px;
+}
+.htl-noRocirdFound
+{
+    border: 1px solid #B6DAF0;
+    display: block;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0.5%;
+    background-color: #E4F5F8;
+    width: 100%;
+    color: #FF7902;
+    text-align: center;
+}
+.htl-successBox
+{
+    background-color: #d4fecc;
+    border: 1px solid #a0df98;
+    border-radius: 4px;
+    center: 0;
+    text-align: left;
+    width: 99%;
+    word-wrap: break-word;
+    z-index: 102;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.htl-successBox h2
+{
+    text-align: left;
+    color: #579749;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.htl-infoBox
+{
+    background-color: #e0efff;
+    border: 1px solid #98cbff;
+    border-radius: 4px;
+    center: 0;
+    text-align: left;
+    width: 99%;
+    word-wrap: break-word;
+    z-index: 102;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.htl-infoBox h2
+{
+    text-align: left;
+    color: #3177be;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.htl-alartBox
+{
+    background-color: #fefccb;
+    border: 1px solid #d9df63;
+    border-radius: 6px;
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    center: 0;
+    padding: 5px;
+    position: fixed;
+    text-align: left;
+    width: 430px;
+    word-wrap: break-word;
+    z-index: 102;
+    height: 60px;
+}
+.htl-alartBox h2
+{
+    text-align: left;
+    color: #828421;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.htl-errorBox
+{
+    background-color: #fed2d3;
+    border: 1px solid #d8929c;
+    border-radius: 4px;
+    center: 0;
+    text-align: left;
+    width: 99%;
+    word-wrap: break-word;
+    z-index: 102;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.htl-errorBox h2
+{
+    text-align: left;
+    color: #8a1724;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.bookingSummary
+{
+    background-color: #E4F5F8;
+    border: 1px solid #B6DAF0;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0.5%;
+    width: auto;
+    background-color: #E4F5F8;
+}
+.fairDetail
+{
+    width: 30%;
+    float: right;
+}
+.hotelDetail
+{
+    width: 68%;
+    float: left;
+}

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BusApi" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:3182/BusApi.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:3182/BusApi.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:3182/BusApi.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ATLWCF.Operations" />
+      <xsd:import schemaLocation="http://localhost:3182/BusApi.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBusApi_GetStations_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStations" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_GetStations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_GetSeatPlan_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeatPlan" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_GetSeatPlan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeatPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_SearchBus_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBus" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_SearchBus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchBusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_Book_InputMessage">
+    <wsdl:part name="parameters" element="tns:Book" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_Book_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_Issue_InputMessage">
+    <wsdl:part name="parameters" element="tns:Issue" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_Issue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_IssueBooked_InputMessage">
+    <wsdl:part name="parameters" element="tns:IssueBooked" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_IssueBooked_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IssueBookedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CancelBooked_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBooked" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CancelBooked_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelBookedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CancelIssued_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelIssued" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CancelIssued_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelIssuedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_RouteScheduleList_InputMessage">
+    <wsdl:part name="parameters" element="tns:RouteScheduleList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_RouteScheduleList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RouteScheduleListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_OperatorList_InputMessage">
+    <wsdl:part name="parameters" element="tns:OperatorList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_OperatorList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OperatorListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_BusTypeList_InputMessage">
+    <wsdl:part name="parameters" element="tns:BusTypeList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_BusTypeList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BusTypeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CityList_InputMessage">
+    <wsdl:part name="parameters" element="tns:CityList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CityList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CityListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CategoryList_InputMessage">
+    <wsdl:part name="parameters" element="tns:CategoryList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_CategoryList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CategoryListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_BookingList_InputMessage">
+    <wsdl:part name="parameters" element="tns:BookingList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_BookingList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BookingListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_PNRList_InputMessage">
+    <wsdl:part name="parameters" element="tns:PNRList" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_PNRList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PNRListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_Ledger_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ledger" />
+  </wsdl:message>
+  <wsdl:message name="IBusApi_Ledger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LedgerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBusApi">
+    <wsdl:operation name="GetStations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/GetStations" message="tns:IBusApi_GetStations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/GetStationsResponse" message="tns:IBusApi_GetStations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatPlan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/GetSeatPlan" message="tns:IBusApi_GetSeatPlan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/GetSeatPlanResponse" message="tns:IBusApi_GetSeatPlan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchBus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/SearchBus" message="tns:IBusApi_SearchBus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/SearchBusResponse" message="tns:IBusApi_SearchBus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/Book" message="tns:IBusApi_Book_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/BookResponse" message="tns:IBusApi_Book_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Issue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/Issue" message="tns:IBusApi_Issue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/IssueResponse" message="tns:IBusApi_Issue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IssueBooked">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/IssueBooked" message="tns:IBusApi_IssueBooked_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/IssueBookedResponse" message="tns:IBusApi_IssueBooked_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooked">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/CancelBooked" message="tns:IBusApi_CancelBooked_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/CancelBookedResponse" message="tns:IBusApi_CancelBooked_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelIssued">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/CancelIssued" message="tns:IBusApi_CancelIssued_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/CancelIssuedResponse" message="tns:IBusApi_CancelIssued_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RouteScheduleList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/RouteScheduleList" message="tns:IBusApi_RouteScheduleList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/RouteScheduleListResponse" message="tns:IBusApi_RouteScheduleList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OperatorList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/OperatorList" message="tns:IBusApi_OperatorList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/OperatorListResponse" message="tns:IBusApi_OperatorList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BusTypeList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/BusTypeList" message="tns:IBusApi_BusTypeList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/BusTypeListResponse" message="tns:IBusApi_BusTypeList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CityList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/CityList" message="tns:IBusApi_CityList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/CityListResponse" message="tns:IBusApi_CityList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CategoryList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/CategoryList" message="tns:IBusApi_CategoryList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/CategoryListResponse" message="tns:IBusApi_CategoryList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BookingList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/BookingList" message="tns:IBusApi_BookingList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/BookingListResponse" message="tns:IBusApi_BookingList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PNRList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/PNRList" message="tns:IBusApi_PNRList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/PNRListResponse" message="tns:IBusApi_PNRList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Ledger">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBusApi/Ledger" message="tns:IBusApi_Ledger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBusApi/LedgerResponse" message="tns:IBusApi_Ledger_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBusApi" type="tns:IBusApi">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStations">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/GetStations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatPlan">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/GetSeatPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchBus">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/SearchBus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Book">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/Book" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Issue">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/Issue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IssueBooked">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/IssueBooked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBooked">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/CancelBooked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelIssued">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/CancelIssued" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RouteScheduleList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/RouteScheduleList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OperatorList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/OperatorList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BusTypeList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/BusTypeList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CityList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/CityList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CategoryList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/CategoryList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookingList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/BookingList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PNRList">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/PNRList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ledger">
+      <soap:operation soapAction="http://tempuri.org/IBusApi/Ledger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BusApi">
+    <wsdl:port name="BasicHttpBinding_IBusApi" binding="tns:BasicHttpBinding_IBusApi">
+      <soap:address location="http://localhost:3182/BusApi.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

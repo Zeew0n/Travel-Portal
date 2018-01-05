@@ -1,0 +1,60 @@
+﻿
+/*body 
+{
+    color:#474747;
+	font:11px/18px Tahoma, Geneva, sans-serif;
+	margin:0px;
+	padding:0px;
+	background-color:#668fb8;
+	background: url("../../../Content/Images/texture.png") repeat scroll 0 0 transparent; 
+	}
+#loginBox { margin:115px auto 0px auto; padding:26px 34px 26px 159px; width:250px; height:170px;  border:1px solid #fff; background:url("../../../Content/Images/key.jpg") no-repeat 26px 26px #f9f7f7; position:relative; box-shadow:0 0 5px 1px #CCCCCC; -moz-box-shadow:0 0 5px 1px #CCCCCC; -webkit-box-shadow:0 0 5px 1px #CCCCCC;}
+#loginBox h1 { color:#575757; font-size:14px; margin:10px 0;}
+#loginBox form p { padding:14px 0px 0px; margin:0px; overflow:hidden; color:#515357;}
+#loginBox form p label { float:left; width:75px;}
+#loginBox form p input[type="text"], #loginBox form p input[type="password"] { float:left; width:150px; background-color:#c9d5e2; border:1px solid #bbbcbe; font-size:12px; }
+#loginBox form p span a{ color:#ed3445; font-style: italic}
+#loginBox form p span a:hover { text-decoration:none; cursor:pointer;}
+#loginBox form p input[type="submit"] { width:95px; cursor:pointer; height:20px; text-align:center; padding:0px 0px 3px; color:#fff; background:url("../../../Content/Images/bg_nav.gif") repeat-x; border:1px solid #ccc; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+#loginBox form p em { color:Red;}
+
+#logo { position:absolute; background:url("../../../Content/Images/logo.jpg") no-repeat; width:46px; height:47px; bottom:10px; right:10px;}
+#footer { width:443px; margin:0px auto;}
+#footer p , #footer p a { font-size:11px; color:#575757; text-decoration:none;}
+#footer p a:hover { text-decoration:underline;}
+#footer p span { float:right; width:auto;}
+#footer p em { padding:0px 3px;}*/
+
+
+
+body 
+{
+    color:#474747;
+	font:11px/18px Tahoma, Geneva, sans-serif;
+	margin:0px;
+	padding:0px;
+	background-color:#668fb8;
+	background: url("../../../Content/Images/admin-bg.jpg") repeat-x #fff; 
+	}
+#loginBoxWrap { background: url("../../../Content/Images/admin-login-btmbg.png") no-repeat center 94%; width:805px; margin:200px auto 0px;}
+#loginBox { margin:0px auto; padding:26px 34px 32px 159px; width:250px; border:1px solid #fff; background:url("../../../Content/Images/key.jpg") no-repeat 26px 26px #f9f7f7; position:relative;
+-webkit-box-shadow: 0px 0px 5px 0.1px rgba(20, 20, 20, 0.2);
+-moz-box-shadow: 0px 0px 5px 0.1px rgba(20, 20, 20, 0.2);
+box-shadow: 0px 0px 5px 0.1px rgba(20, 20, 20, 0.2); }
+#loginBox h1 { color:#575757; font-size:14px; margin:10px 0;}
+#loginBox form p { padding:14px 0px 0px; margin:0px; overflow:hidden; color:#515357;}
+#loginBox form p label { float:left; width:75px;}
+#loginBox form p input[type="text"], #loginBox form p input[type="password"] { float:left; width:150px; background-color:#c9d5e2; border:1px solid #bbbcbe; font-size:12px; }
+#loginBox form p span a{ color:#0091d0; font-style: italic}
+#loginBox form p span a:hover { text-decoration:none; cursor:pointer;}
+#loginBox form p input[type="submit"] { width:95px; cursor:pointer; height:20px; text-align:center; padding:0px 0px 3px; color:#fff; background:url("../../../Content/Images/bg_nav.gif") repeat-x; border:1px solid #ccc; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+#loginBox form p em { color:Red;}
+
+#logo { position:absolute; background:url("../../../Content/Images/ats-logo.png") no-repeat; width:70px; height:34px; bottom:10px; right:10px;}
+#footer { width:420px; padding:0px 25px; margin:0px auto;}
+#footer p , #footer p a { font-size:11px; color:#6d6d6d; text-decoration:none;}
+#footer p a:hover { text-decoration:none; color:#000;}
+#footer p span { float:right; width:auto;}
+#footer p em { padding:0px 3px;}
+#loginBox form p span.field-validation-error { clear: both; color: red; display: block; padding:1px 0px 0px 5px; border-left:4px solid red; border-bottom:1px solid #CCCCCC; width:220px;}
+div.validation-summary-errors p { color: Red !important; }

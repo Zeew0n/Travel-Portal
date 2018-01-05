@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+.search-frame{ color:#474747; padding:0; background:#cff18d; margin-bottom:1%; font-size:11px; }
+dl.dlTlt {font-weight:bold;border-bottom:1px #ccc solid}
+dl.sresult-row { background:#fff;}
+dl.sresult-row1{ background:#fff;}
+
+dl.sresult-row, dl.sresult-row1{ color:#4b4b4b; margin:0;}
+
+.dlTlt dt,.dlTlt dd { padding:2px}
+.sresult-row dt, dl.sresult-row dd,dl.sresult-row1 dt,dl.sresult-row1 dd { border-right:1px #d9e2ea solid; padding:1%;}
+
+dl.dlTlt,dl.sresult-row,dl.sresult-row1{display: block; overflow:hidden;} 
+
+dl.sresult-row span,dl.sresult-row1 span{ font-size:11px; color:#999}
+dl.sresult-row:hover span,dl.sresult-row1:hover span{ color:#0091d0}
+
+.dlTlt dt, .dlTlt dd,dl.sresult-row dt, dl.sresult-row dd,dl.sresult-row1 dt, dl.sresult-row1 dd{	float:left; display: inline; width:10%;}
+
+dl.dlTlt .wide115px,dl.sresult-row .wide115px,dl.sresult-row1 .wide115px{width:17%;}
+
+dl.sresult-row dd.nob,dl.sresult-row1 dd.nob{ border:none}
+dl.sresult-row:hover,dl.sresult-row1:hover{ background:#e3f1f7}
+
+a.booknow{color:#000;height:16px;line-height:16px;padding:0px 10px;text-decoration:none;border:1px #e68c4d solid;text-align:center;font-size:11px;font-weight:bold;	vertical-align:middle; background:url(../img/button/btn-orange.gif) repeat-x; }
+a.booknow span{ background:url(../img/button/arrow-black.png) no-repeat; width:4px; height:6px; line-height:6px; display:inline-block}
+
+dd.priceLabel{ font-weight:bold}
+dd.priceLabel span{ font-size:11px; font-weight:normal;}
+
+.modifyLinks{float: right; width:140px; line-height:25px; text-align:right; font-size:11px; font-weight:bold; border-left:1px #cfd3d4 solid; }
+.modifyLinks a{ background:url(../img/icons/icon_edit.png) no-repeat 0 2px; padding:0 0 0 17px;}
+
+.tabs form{ border:1px #ccc solid}
+*/

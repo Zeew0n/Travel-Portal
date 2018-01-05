@@ -1,0 +1,39 @@
+﻿body {
+	font: 11px Tahoma, Geneva, sans-serif;
+	margin-top: 10px;
+}
+
+ul {
+	margin: 0;
+}
+
+#contentWrap {
+	width: 700px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+
+#contentTop {
+	width: 600px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+#contentLeft {
+	float: left;
+	width: 400px;
+}
+
+#contentLeft li {
+	list-style: none;
+	margin: 0 0 4px 0;
+	padding: 10px;
+	background-color:White;
+	border: #CCCCCC solid 1px;
+	color:Blue;
+}
+
+
+	
+

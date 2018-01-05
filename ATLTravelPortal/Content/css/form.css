@@ -1,0 +1,300 @@
+﻿/*Form style*/
+/********************** Hem **************************/
+    
+.divLeft {
+    clear: both;
+    float: left;
+    width: 50%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.divRight {
+    clear: right;
+    float: left;
+    width: 50%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.pageMainContent
+{
+    /*border:1px #cfd3d4 solid;*/ 
+   
+     padding: 0px 5px;
+}
+.pageTitle{
+	height:25px;
+	padding:0px;
+	border-bottom:1px #cfd3d4 solid; 
+	clear:both;
+	margin-bottom:5px;
+	/*background:url(../images/bg-title.gif) repeat-x bottom;*/
+	}
+.pageTitle h3{
+	height:20px;
+	color:#0091d0;
+	line-height:25px;
+	font-weight:bold;
+	font-size:13px;
+	}
+.pageTitle h3 strong{ color:#474747;}
+h3.icon_plane{
+	padding:0 0 0 20px;
+	background: url(../images/icons/icon_plane.png) no-repeat 0 5px;
+	}
+.pageTitle span{
+	height:25px;
+	width:14px;
+	line-height:25px;
+	display:inline-block;
+	margin:0 5px;
+	background:url(../images/bg-brd-current.gif) no-repeat;
+	}
+.flightType
+{
+    border-bottom: 1px dotted #CCCCCC;
+    margin-top:10px;
+     background-color: #EDF3F9;
+}
+.flightType span
+{
+    padding-right:19%;
+}
+.flightType label
+{
+    width:30px;
+}
+/********************** Hem **************************/
+/*Table Style*/
+.tbl_Data{ /*border:1px #cfd3d4 solid;*/ margin-bottom:10px; padding:10px;}
+.tbl_Data_Tlt{
+	height:25px;
+	padding:0 10px;
+	border-bottom:1px #cfd3d4 solid; 
+	background:url(../images/bg-title.gif) repeat-x bottom;
+	}
+.tbl_Data_Tlt h3{
+	height:20px;
+	color:#0091d0;
+	line-height:25px;
+	font-weight:bold;
+	}
+.tbl_Data_Tlt h3 strong{ color:#474747;}
+h3.icon_plane{
+	padding:0 0 0 20px;
+	background: url(../images/icons/icon_plane.png) no-repeat 0 5px;
+	}
+.tbl_Data_Tlt span{
+	height:25px;
+	width:14px;
+	line-height:25px;
+	display:inline-block;
+	margin:0 15px;
+	background:url(../images/bg-brd-current.gif) no-repeat;
+	}
+
+
+
+
+
+
+.form-box1 { margin:0px; padding:0px; overflow:hidden; height:1%;
+
+/*border-radius: 6px;
+-moz-border-radius:6px;
+-webkit-border-radius: 6px;*/
+}
+.form-box1-row { margin:0px;  padding:2px 0px; overflow:hidden; height:1%;}
+.form-box1-row-content { width:375px;}
+.form-box1-row-content div { margin:0px;padding:0px;}
+.form-box1-row-content div p{ padding-top:18px; }
+.form-box1-row-content div label { float:left; width:125px; text-align:right; padding-right:5px; color:#474747;}
+.form-box1-row-content div label.one { float:left; width:50px; text-align:right; padding-right:5px;}
+.form-box1-row-content div input { padding:0px 3px;	width:173px; height:18px; border:1px solid #D5D5D5; font-size:11px; }
+.form-box1-row-content div select { padding:0px 3px;	width:182px; height:18px;border:1px solid #D5D5D5;  font-size:11px;}
+.form-box1-row-content div input[type="checkbox"] { padding:0px 3px; height:18px; width:auto;border:1px solid #D5D5D5; }
+.form-box1-row-content div input[type="radio"] { padding:0px 3px; height:18px; width:auto;border:1px solid #D5D5D5; }
+.form-box1-row-content div font {}
+
+.form-box1-row-content2 { width:330px;}
+.form-box1-row-content2 div { margin:0px;padding:0px;}
+.form-box1-row-content2 div p{ padding-top:18px; }
+.form-box1-row-content2 div label { float:left; width:125px; text-align:right; padding-right:5px; color:#474747;}
+.form-box1-row-content2 div label.one { float:left; width:50px; text-align:right; padding-right:5px;}
+.form-box1-row-content2 div input { padding:0px 3px;	width:173px; height:18px; border:1px solid #D5D5D5; font-size:11px; }
+.form-box1-row-content2 div select { padding:0px 3px;	width:182px; height:18px;border:1px solid #D5D5D5;  font-size:11px;}
+.form-box1-row-content2 div input[type="checkbox"] { padding:0px 3px; height:18px; width:auto;border:1px solid #D5D5D5; }
+.form-box1-row-content2 div input[type="radio"] { padding:0px 3px; height:18px; width:auto;border:1px solid #D5D5D5; }
+.form-box1-row-content2 div font {}
+
+
+
+
+.form-box2 { margin:0px; padding:10px; overflow:hidden; height:1%;
+
+border-radius: 6px;
+-moz-border-radius:6px;
+-webkit-border-radius: 6px;
+}
+.form-box2-row { margin:0px;  padding:3px 0px; overflow:hidden; height:1%;}
+.form-box2-row-content { width:350px;}
+.form-box2-row-content form div { margin:0px;padding:5px 0px 0px;}
+.form-box2-row-content form div label { float:left; width:125px; text-align:left; padding-right:5px; }
+.form-box2-row-content form div input, .form-box2-row-content form div select { padding:0px 3px;	width:183px; height:18px; border:1px solid #D5D5D5; 
+/*border-radius: 6px;
+-moz-border-radius:6px;
+-webkit-border-radius: 6px;background-color:#FFF;*/	
+}
+.form-box2-row-content form p { margin-left:130px; }
+
+
+.validation-summary-errors p { margin:0px; padding:5px; position:absolute; overflow:auto; width:218px; max-height:80px; top:123px; right:15px; background-color:#fff;
+border:1px solid #d5d5d5; 
+/*border-radius: 6px;
+-moz-border-radius:6px;
+-webkit-border-radius: 6px;*/
+ color:#FF0000;}
+
+.field-validation-error {
+    color: #FF0000;
+}
+.field-validation-valid {
+    display: none;
+}
+.form-box1-row-content div input.input-validation-error {
+    background-color: #FFEEEE;
+    border: 1px solid #FF0000;
+}
+.validation-summary-valid {
+    display: none;
+}
+
+
+.form-box3 { margin:0px; padding:0px; overflow:hidden; height:1%; 
+/*border-radius: 6px;
+-moz-border-radius:6px;
+-webkit-border-radius: 6px;*/
+}
+
+.form-box3 h4 { padding-left:5px; border-bottom:1px solid #ccc; margin-bottom:10px; font-size:12px; }
+
+.border-btm{ border-bottom:1px solid #ccc; margin-bottom:10px;}
+
+
+/*sunil */
+.cssform p{ margin-bottom:10px; color:#474747; font-size:11px;}
+input,select,textarea{ border:1px #cfd3d4 solid;  padding: 0px; font:11px/14px Tahoma, Geneva, sans-serif;}
+input[type="radio"],input[type="checkbox"]{ border:none; vertical-align:middle;}
+input { height:18px; line-height:18px;}
+.blueDiv input,.blueDiv input[type="text"],.blueDiv textarea{ height:15px; line-height:15px; width:100%; font-size:11px;}
+.blueDiv select{ width:100%; font-size:11px;}
+
+/*cForm style*/
+.cForm table{ margin-bottom:20px;}
+/*.cForm p{ margin-bottom:20px;}*/
+.cForm .comments{ font-style:normal; color:#a3a3a3; font-size:11px;}
+.cForm p span{ margin:0 15px; display:inline-block;}
+.cForm input[type="text"],
+.cForm select,
+.cForm textarea
+{      padding-left:4px;
+       padding-right:0px;
+         font-size:11px; 
+   
+    height:22px;}
+.cForm input[type="text"]{    padding: 0 4px; width:200px;}
+.iconCal{ background:url(../img/icons/icon_calendar.png) no-repeat right; display:block;}
+/******************Hem *******************/
+.multiCityParamDate
+{
+    width:110px;
+}
+.GridView
+{
+	vertical-align:top;
+	text-align:left;
+	width:100%;
+}
+
+
+.GridView th
+{
+	padding:0px 0 0px 4px;
+	height:22px;
+	line-height:22px;
+	
+}
+.GridView th a
+{
+	text-decoration:none;
+
+}	
+.GridView th a.ASC
+{
+	padding-right:15px;
+}
+.GridView th a.DESC
+{
+	padding-right:15px;
+}
+/* CSS Document */
+.cssform p{ margin-bottom:10px; color:#474747; font-size:11px;}
+/*input,select,textarea{ border:1px #cfd3d4 solid;}
+input[type="radio"],input[type="checkbox"]{ border:none}*/
+
+.blueDiv input,.blueDiv input[type="text"],.blueDiv textarea{ height:15px; line-height:15px; width:100%; font-size:11px;}
+.blueDiv select{ width:100%; font-size:11px;}
+
+/*cForm style*/
+.cForm table{ margin-bottom:20px;}
+/*.cForm p{ margin-bottom:20px;}*/
+.cForm .comments{ font-style:normal; color:#a3a3a3; font-size:11px;}
+.cForm p span{ margin:0 15px; display:inline-block;}
+.cForm input[type="text"]{ width:200px;}
+.iconCal{ background:url(../img/icons/icon_calendar.png) no-repeat right; display:block;}
+
+
+
+.cForm a{ text-decoration:underline}
+.cForm a:hover{ text-decoration:none}
+
+.radioOptionBox { overflow:hidden; height:1%; margin-bottom:20px;}
+.radioOptionBox div { float:left; width:auto; margin-right:20px;}
+.radioOptionBox div input[type="radio"] { margin-right:5px;}
+.labelDetail
+{
+    color:#000000;
+    text-align:left;
+}
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+.errorBox {
+    background-color: #FFD9D9;
+    border: 1px solid #FF0000;
+   
+    color: #FF0000;
+  
+    margin-right: 3px;
+    margin-top: 2px;
+    text-align: left;
+    
+    word-wrap: break-word;
+    z-index: 102;
+}
+.messageBox {
+    background-color: #FFD9D9;
+    border: 1px solid #85B900;
+    color: #85B900;
+    margin-right: 3px;
+    margin-top: 2px;
+    text-align: left;
+    word-wrap: break-word;
+    z-index: 102;
+}
+
+.form-box1-row-content div input[type="file"] { padding:0px 3px; background:none; width:75px; height:20px; border:none;  font-size:11px;}
+
+
+table

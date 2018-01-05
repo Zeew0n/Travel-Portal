@@ -1,0 +1,44 @@
+﻿.row-1 {
+    height: 1%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.dashboardHeight {
+    height: 240px;
+}
+.dashQuickMenu {
+    float: left;
+    margin-right: 5px;
+    width: 175px;
+}
+.dashChart {
+    float: left;
+    width: 594px;
+}
+ul, ol {
+}
+ol, ul {
+    list-style: none outside none;
+}
+.dashIssuedTicket {
+    float: left;
+    width: 384px;
+}
+.row-1 h3 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #595959;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+dl.style1 {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+dl.style1 dt {
+    float: left;
+    font-weight: bold;
+    width: 25%;
+}

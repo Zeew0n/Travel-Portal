@@ -1,0 +1,175 @@
+﻿body{
+	background:url(../images/bg-2.jpg) repeat-x #f2f2f2;
+	}
+
+
+.logo a{
+	position:relative;
+	top:10px;
+	display:block;
+	line-height:36px;
+	text-indent:-9999px;
+	width:171px; height:64px;
+	background:url(../images/ah-logo-2.png) no-repeat;
+	}
+
+.GridView thead {
+    background-color: #0286C0;
+    color: #FFFFFF;
+}
+/************ddsmenu************************************/
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+    color: #07589e !important;
+    float: left;
+    font: 11px/29px Arial,Helvetica,sans-serif;
+    margin: 0 3px 0px 0px;
+    padding: 0px 20px;
+    width:auto;
+    text-align: center;
+    text-transform: uppercase;
+    background:url(../images/main-nav-bg.jpg) repeat-x;
+   border-radius: 3px 3px 0px 0px;
+-moz-border-radius: 3px 3px 0px 0px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+}
+
+
+.ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li a.selected{
+  background:url(../images/main-nav-bg-hv.jpg) repeat-x;
+    text-decoration:none;
+}
+
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+background:#fff !important;
+-webkit-border-radius: 0px 0px 10px 10px;
+border-radius: 0px 0px 10px 10px; 
+box-shadow:0px 5px 5px rgba(25, 25, 25, 0.5) !important;
+-moz-box-shadow:0px 5px 5px rgba(25, 25, 25, 0.5) !important;
+-webkit-box-shadow:0px 5px 5px rgba(25, 25, 25, 0.5) !important;
+border-bottom:2px solid #0693eb;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+    
+display: list-item;
+float: none;
+color:#515357;
+text-align:left;
+border-radius:none;
+-webkit-border-radius:none;
+-moz-border-radius:none;
+
+}
+
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 50px !important;
+left:181px !important;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+font: normal 11px/18px Tahoma,Geneva,sans-serif;
+width: 160px; /*width of sub menus*/
+padding: 3px 10px;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid #bfbfbf;
+background:#fff;
+color:#515357 !important;
+text-align:left;
+border-radius:0px ;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+}
+
+.ddsmoothmenu ul li ul li a:hover{
+background:#e6eef5;
+color:#000 !important;
+border-radius:none !important;
+-webkit-border-radius:none !important;
+-moz-border-radius:none !important;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+display: none;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 35px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.8;
+}
+
+a
+{
+    cursor:pointer;    
+}
+
+
+.ddsmoothmenu li ul ul.ulSub {  position:relative !important; top:0px !important;  background:#f2f3f2 !important;}
+.ddsmoothmenu li ul ul.ulSub li { width:150px !important; }
+.ddsmoothmenu li ul li.liSub a { margin-left:20px; width:139px !important;border-left:1px solid #bfbfbf; background:#d9dad9 !important; line-height:12px !important;}
+.ddsmoothmenu li ul li.liSub a:hover { background:#fef4d1 !important;}
+
+
+
+/*tplink*/
+.tpLink{
+	position:absolute;
+	top:0px; right:0px;
+	width:auto;
+	height:40px;
+	color:#bcd1e7;
+	text-align:right;	
+	background:#005c9b;
+	border-radius: 0px 0px 6px 100px;
+    -moz-border-radius: 0px 0px 6px 100px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 100px;
+    border-top:none;
+    padding:0px 10px 0px 45px;
+    border:none;
+	}
+.tpLink span{ margin:0 2px;display:inline-block; color:#cbcbca}
+.tpLink a{ color:#cbcbca; text-decoration:none}
+.tpLink a:hover{ text-decoration:underline}
+
+
+
+.balanceWrap {  top:50px;}

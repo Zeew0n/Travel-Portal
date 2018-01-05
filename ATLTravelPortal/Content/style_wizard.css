@@ -1,0 +1,212 @@
+/* - - - - - - CSS Document - - - - - - - - - - - - - - */
+
+  body 
+  {
+      font-size : 11px;
+      *font-size:small;
+      **font:x-small;
+      color:#0464BB; 
+      margin:0;
+      padding:0;      }
+
+ .wiz-container{
+      margin:0;padding:0;
+      width:auto;
+      margin:10px 0px 0px;     
+      border:1px solid #ccc;
+      padding:0;   /*12px 0px 2px 5px;*/    
+      color:#0464BB;
+      text-align:left;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius: 3px;
+      z-index:100;
+      /* background:#F8F8F8;  
+      position:relative; height: 400px;
+      top:20px;
+      left: 5%;
+      right:5%;
+        */
+  }
+  .wiz-container ul{
+    margin:0;padding:0;
+    list-style: none; 
+    position: relative; 
+    padding: 3px 7px; 
+    display:block;
+    background:#F8F8F8;
+    height:39px;
+    border-bottom: 1px solid #E0E0E0; 
+  }
+  .wiz-container ul li{ 
+    margin:0;padding:0;
+    position: relative; 
+    float: left; 
+    border-bottom-width: 0 !important; 
+    margin: 0; 
+    margin-right: 2px;
+    padding: 0; }
+  .wiz-container ul li a { 
+    margin:0;
+    padding:3px 0 0 6px;
+    display:block;
+    text-decoration: none;    
+    height:34px;
+    width:145px;
+    color:#0464BB;
+  }
+  .wiz-container ul li a:hover {   
+    color:#0464BB; 
+  }
+  .wiz-anc-default{
+    background:url(images/tab-rgt-arrow.png) no-repeat 95% center #a6a6a5;   
+    border:#9e9e9e solid 1px; 
+    color:#000;
+   /* -moz-border-radius-bottomright  : 0px;
+    -moz-border-radius-topright     : 25px;
+    -moz-border-radius-bottomleft   : 2px;
+    -moz-border-radius-topleft      : 2px; 
+    -webkit-border-top-left-radius  : 2px;
+    -webkit-border-bottom-left-radius:2px;
+    -webkit-border-top-right-radius :20px;
+    -webkit-border-bottom-right-radius:20px;   */ 
+  }
+  .wiz-anc-current{
+    color:#FFF !important; 
+    background:url(images/tab-rgt-arrow.png) no-repeat 95% #fc9914;
+    border:#e98703 solid 1px;
+   /* -moz-border-radius-bottomright  : 25px;
+    -moz-border-radius-topright     : 25px;
+    -moz-border-radius-bottomleft   : 2px;
+    -moz-border-radius-topleft      : 2px; 
+    -webkit-border-top-left-radius  : 2px;
+    -webkit-border-bottom-left-radius:2px;
+    -webkit-border-top-right-radius :20px;
+    -webkit-border-bottom-right-radius:20px;  */  
+  }
+  .wiz-anc-done{
+    color:#FFF !important; 
+    background:url(images/tab-rgt-arrow.png) no-repeat 95% #0089c8;
+    border:#c7c7c6 solid 1px;
+   /* -moz-border-radius-bottomright  : 25px;
+    -moz-border-radius-topright     : 25px;
+    -moz-border-radius-bottomleft   : 2px;
+    -moz-border-radius-topleft      : 2px; 
+    -webkit-border-top-left-radius  : 2px;
+    -webkit-border-bottom-left-radius:2px;
+    -webkit-border-top-right-radius :20px;
+    -webkit-border-bottom-right-radius:20px;*/
+  }
+   
+  .wiz-anc-error{ /*wiz-anc-done */
+    color:#CD0A0A  !important; 
+    /*background-color:#FEF1EC ;*/
+    border:#AE1000 solid 1px;
+  }  
+  .wiz-body{
+    display:block; 
+    background:transparent; 
+    border-bottom: 0px solid #E0E0E0; 
+    width:auto;
+  }
+  .wiz-body div.wiz-content {
+    display:block; 
+    position: relative;
+    top:0px;
+    left:0px;
+    text-decoration: none; 
+    padding: 10px;
+    margin : 3px;
+    border-bottom: 0px solid #E0E0E0;    
+    width:auto;
+    
+  }
+  .wiz-nav {
+    display:block; /*
+    position: absolute;*/
+    left:0px;
+    bottom:0px;
+    text-decoration: none; 
+    padding: 2px 5px 2px 5px;
+    background:#F8F8F8 ; 
+   /* height:30px;*/
+    width:auto;
+    margin : 0px;
+    border: 0px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+  }
+  .wiz-nav #next {
+    float:right;
+  }
+  .wiz-nav #back{
+    float:left;
+  }
+  .wiz-nav #done{
+    margin-left:30%;
+    float:left;
+  }
+  
+  
+  /* Button & Textbox Styles */
+  h1, h2, h3{
+      margin:0;
+      padding:0;
+  }
+  .btn{
+      width                 : 100px;
+      -moz-border-radius    : 8px;
+      -webkit-border-radius : 8px;
+      background            : #5A5655;
+      color                 : #FFFFFF;
+      margin                : 8px 10px 0px 10px;
+      padding               : 0px;
+      text-align            : center;
+      border                : 1px solid #5A5655;    
+      text-decoration       : none; 
+  }
+  .btn:hover{
+   background-color:#000; 
+  /* for IE */
+  filter:alpha(opacity=80);
+  /* CSS3 standard */
+  opacity:0.8;
+ color:#884539;
+    cursor:pointer;
+  }
+  
+  .wiz-body .text{ 
+    border: 1px solid #E0E0E0; 
+    width:300px;
+    padding:4px;
+  }  
+  .wiz-body .text:focus{ 
+    border: 1px solid #EA8511; 
+  } 
+  .wiz-body div.error{
+    font : bold 12px Verdana, Arial, Helvetica, sans-serif;
+    display:none;
+    position:relative;
+    left:30%;
+    top:5px;
+    width:400px; 
+    padding: 5px 5px 5px 10px;
+    -moz-border-radius    : 5px;
+    -webkit-border-radius : 5px;  
+    float:left;
+    background:#FFE45C;
+    border:1px solid #FED22F;
+    color:#363636;    
+  }
+  
+  ul.wizard-anchor li a.wiz-anc-done h2 { color:#fff !important; font-size:13px !important;}
+  
+  a.wiz-anc-current h2,   a.wiz-anc-done h2 { color:#fff; font-size:13px;}
+   a.wiz-anc-default h2{  font-size:13px; color:#fff !important;}
+     a.wiz-anc-default p, a.wiz-anc-current p,   a.wiz-anc-done p { color:#fff; font-size:11px; line-height:11px;}
+   
+   
+   table.jqueryaddmore { padding:0px; width:100%;}
+table.jqueryaddmore thead th { background-color:#697679; color:#fff; padding:3px;}
+table.jqueryaddmore tr td select, input, checkbox {font-size:11px;}
+   
+  /* End Button Styles */

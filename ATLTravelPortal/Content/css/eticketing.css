@@ -1,0 +1,48 @@
+/* CSS Document */
+
+.eticketing-wrapper { padding:0px; overflow:hidden; width:780px; margin:0px auto;}
+.eticketing-container { padding:0px; }
+.eticketing-heading {padding:10px;  background-color:#525252;font-weight:bold; font-size: 13px; color:#fff;
+border-top: 1px solid #1f557c; border-left: 1px solid #1f557c; border-right: 1px solid #1f557c;
+/*border-radius: 14px 14px 0px 0px;
+-moz-border-radius: 14px 14px 0px 0px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px; */
+}
+.eticketing-heading h5 {font-weight:bold; font-size: 13px; color:#fff; margin:0px;}
+
+.eticketing-content { padding:5px 10px; border-left: 1px solid #1f557c; border-right: 1px solid #1f557c; border-bottom: 1px solid #1f557c; color:#474747; position:relative;}
+.eticketing-content p { color:#474747;}
+.erow { overflow:hidden;}
+.ecol1 { width:30%; float:left;}
+.ecol2 { width:30%; float:left;}
+.ecol3 { width:40%; float:left;}
+
+.eborder-btom { border-bottom:2px solid #ccc; padding-bottom:5px; margin-bottom:5px;}
+.ebg { background-color:#e8e8e8;}
+
+.ecol4 { width:10%; float:left;}
+.ecol5 { width:40%; float:left;}
+.ecol6 { width:10%; float:left;}
+.ecol7 { width:25%; float:left; text-align:right;}
+.ecol8 { width:15%; float:left; text-align:right;}
+.ecol9 { width:60%; float:left; }
+
+.eticketing-flightdetails { overflow:hidden;}
+.emrg-top { margin-top:5px;}
+
+.statusportion { background-color:grey; float:right; width:20%; color:#fff !important; padding:0px 5px;}
+.statusportion p { color:#fff;}
+
+.farebox { padding:0px; overflow:hidden; width:60%;}
+.farebox-col1 { width:30%; float:left;}
+.farebox-col2 { width:10%; float:left;}
+.farebox-col3 { width:15%; float:left; text-align:right;}
+.farebox-col4 { width:5%; float:left; text-align:right;}
+
+.agency-logo { position:absolute; top:10px; right:20px;}
+
+.mrg-top-10 { margin-top:10px;}
+.float-right { float:right;}
+.float-left { float:left;}

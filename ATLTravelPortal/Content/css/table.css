@@ -1,0 +1,103 @@
+﻿
+td, td img { padding-right: 4px;}
+/*single-row-tbl DL*/
+dl.single-row-tbl{ float:left; margin-bottom:20px;}
+dl.single-row-tbl dt,
+dl.single-row-tbl dd{ width:115px; float:left}
+
+/*double column table*/
+
+.margin-rt45{ margin-right:45px;}
+
+/*Table 1*/
+.cssTbl{ float:left; width:230px;}
+dl.border-around
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.border-around dt
+{
+	color: #959289;
+	padding: 3px 10px;
+}
+
+.border-around dd
+{
+	margin: 0 0 1em 0;
+
+	padding:15px;
+}
+
+
+div.contentGrid{   height: 100%;    margin:5px 0px;    width:100%; border-bottom:1px solid #ccc;  }
+.GridView thead 
+{
+     background-color:#59676a;
+     color:#fff;  
+}
+div.contentGrid{   height: 100%;    margin-bottom:10px;    width:auto; border:1px solid #ccc;  }
+.GridView thead {  overflow:hidden;  line-height:20px;  }
+.GridView thead th {   height: 20px;line-height: 20px; padding: 0 0 0 4px;  text-align:left;}
+-moz-border-radius:6px 6px 0px 0px;
+-webkit-border-radius: 6px 6px 0px 0px;}
+.GridView thead th { padding:2px 3px; text-align:left;}
+.GridView thead.optional th {   height: 20px; line-height: 20px; padding: 0 0 0 4px;  text-align:left; font-weight:bold; background:#F0F4F7; color:#515357; border-bottom:1px solid #ccc;}
+.GridView tbody tr.optional {}
+.GridView tbody tr.optional td { border-right:1px solid #ccc; padding-right:2px;}
+
+.GridAlter {background-color:#f8f8f8;  }
+.GridItem { background-color: #fff;}
+
+
+.GridView td {  height:20px; padding:0px 0px 0px 4px;	border: dotted 1px #b5c7d7; border-top:none 0px; border-left:none 0px; border-right:none 0px;	}
+.GridRowOver{ background-color:#DAE4EC; }
+.GridView td a { color:Purple;}
+.GridView td a:hover { text-decoration:underline;}
+
+GridView thead tr .headerSortUp {
+	/*background-image: url(images/asc.png);*/
+	background-image:url(images/asc.png);
+}
+	background-image:url(images/asc.png);
+}
+GridView thead tr .headerSortDown {
+	background-image: url(images/desc.png);
+}
+.contentGrid table td {
+    text-indent: 3px;
+}
+.details { padding-left:20px;border:0px; background:url(../images/css-sprite-images.png) no-repeat 0px -208px;}
+.details:hover { cursor:pointer;}
+
+
+.edit { padding-left:20px;border:0px; background:url(../images/css-sprite-images.png) no-repeat 0px -144px;}
+.edit:hover { cursor:pointer;}
+
+
+input.delete, .delete { padding-left:20px; border:0px !important;  background:url(../images/css-sprite-images.png) no-repeat 0px -176px !important;}
+.delete:hover { cursor:pointer;}
+
+input.delete2,.delete2 { padding-left:20px; border:0px !important;  background:url(../images/css-sprite-images.png) no-repeat 0px -176px !important;}
+.delete2:hover { cursor:pointer;}
+
+input.delete3,.delete3 { padding-left:20px; border:0px !important;  background:url(../images/css-sprite-images.png) no-repeat 0px -176px !important;}
+.delete3:hover { cursor:pointer;}
+
+.pricequotation { margin:0px; overflow:hidden; width:600px; border:1px solid #ccc;  }
+.pricequotation dl { display:block;}
+.pricequotation dt { float:left; border-right:1px solid #ccc; padding-left:5px; width:144px; background-color:#ccc;}
+.pricequotation dd { float:left; border-right:1px solid #ccc; padding-left:5px; width:144px;}
+.total { background-color:#bcd1e7; height:21px;}
+.pricequotation dd.brdnone { border-right:none;}
+
+
+table.simpleStyle { margin-bottom:15px; }
+table.simpleStyle thead th { border-bottom:1px solid #666;  padding:4px;}
+table.simpleStyle tr td { border-bottom:1px solid #ccc;padding:4px;}
+
+.greenBg { background:#E8EFBD;}
+
+

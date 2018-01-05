@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5674299b-7c80-4876-af7a-bbc006896ca1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3182/BusApi.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BusApi.wsdl" MetadataType="Wsdl" ID="a188f2c9-9d0e-4736-ac4d-1815abcaa5a7" SourceId="1" SourceUrl="http://localhost:3182/BusApi.svc?wsdl" />
+    <MetadataFile FileName="BusApi.disco" MetadataType="Disco" ID="a1bc42f2-d620-4880-9899-d4d41c9fc119" SourceId="1" SourceUrl="http://localhost:3182/BusApi.svc?disco" />
+    <MetadataFile FileName="BusApi.xsd" MetadataType="Schema" ID="fd156be9-8c9a-40f4-a273-f7d03aee757f" SourceId="1" SourceUrl="http://localhost:3182/BusApi.svc?xsd=xsd3" />
+    <MetadataFile FileName="BusApi1.xsd" MetadataType="Schema" ID="094774cb-939e-40be-8791-fc6c47e94c08" SourceId="1" SourceUrl="http://localhost:3182/BusApi.svc?xsd=xsd2" />
+    <MetadataFile FileName="BusApi2.xsd" MetadataType="Schema" ID="0dc6c1d0-4222-4b91-9337-66a55cf66a21" SourceId="1" SourceUrl="http://localhost:3182/BusApi.svc?xsd=xsd1" />
+    <MetadataFile FileName="BusApi3.xsd" MetadataType="Schema" ID="2227ca44-1d67-4a75-a57d-5e04b72477dc" SourceId="1" SourceUrl="http://localhost:3182/BusApi.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+/********************** Hem **************************/
+input[type="button"], input[type="submit"], button 
+{
+    background:url("../../../Content/Images/bg_nav.gif") repeat-x scroll 0 0 transparent; 
+    margin:2px 2px 0px 0px; 
+    padding:2px 8px; 
+    width:auto; 
+    color:#fff;
+    cursor:pointer;
+    text-align:center; 
+    font-size: 11px;
+    border:none;
+	height:auto;
+	padding:1px 10px;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; 
+border:1px solid #ccc;
+	
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover
+{ 
+   
+  background-color:#000;
+  /* for IE */
+  filter:alpha(opacity=80);
+  /* CSS3 standard */
+  opacity:0.8;
+    color:#884539;
+    cursor:pointer;
+  }
+.buttonBar
+{
+  overflow:hidden;
+  margin-top:10px;
+   border-top: 1px dotted #CCCCCC;
+   text-align:right;
+   clear:both;
+}
+.buttonFloatRight {
+    float: right;
+}
+.linkButton
+{
+    background:url("../../../Content/Images/bg_nav.gif") repeat-x scroll 0 0 transparent; 
+    margin:2px 2px 0px 0px; 
+    padding:2px 8px; 
+    width:auto; 
+    color:#fff;
+    cursor:pointer;
+    text-align:center; 
+    font-size: 11px;
+    border:none;
+	height:13px;
+	padding:2px 10px;
+	line-height:13px;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; 
+border:1px solid #ccc;
+}
+.linkButton:hover
+{ 
+     background-color:#000;
+  /* for IE */
+  filter:alpha(opacity=80);
+  /* CSS3 standard */
+  opacity:0.8;
+    color:#884539;
+    cursor:pointer;
+    text-decoration:none;
+  }
+  .leftButtonDiv
+  {
+    clear: both;
+    float: left;
+    width: 100px;
+  }
+  .rightButtonDiv
+  {
+    clear: both;
+    float:right;
+    width: 100px; 
+  }
+/********************** Hem **************************/

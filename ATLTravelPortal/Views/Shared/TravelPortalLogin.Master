@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>   
+
+   <asp:ContentPlaceHolder ID="CssContent" runat="server" />  
+  
+   <script type="text/javascript">
+       var siteRelativePath = "";
+    </script>
+
+    
+    <link href="../../Content/css/login.css" rel="stylesheet" type="text/css" />
+ 
+   
+   <asp:ContentPlaceHolder ID="JSContent" runat="server" />
+
+
+</head>
+<body>
+<div id="loginBoxWrap">
+<div id="loginBox">
+<h1>Admin Login to <strong>Arihant Holidays</strong></h1>
+ <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            
+        </asp:ContentPlaceHolder>
+                
+	
+<div id="logo"></div>
+</div>
+
+
+
+
+
+        
+    <div  id="footer">
+<p>
+<a href="#">About Us</a> | <a href="#">Contact Us</a>| <a href="#">Get Help</a>
+<span>© 2010 Arihant Holidays.</span>
+</p>
+</div>
+    <div id="FooterMessageBar">
+        <div id="myErrorBox" class="myFooterMsgBox" style="display: none">
+        </div>
+    </div>
+  </div>    
+      
+</body>
+</html>

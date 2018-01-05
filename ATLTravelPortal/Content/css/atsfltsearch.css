@@ -1,0 +1,223 @@
+﻿.atsfltsearchWrap { background:#e5e5e5; padding:10px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; }
+table.atsfltsearch {}
+table.atsfltsearch thead {}
+table.atsfltsearch thead th {  background:url(../images/blue-gradient.gif) repeat-x; text-align:center; color:#83b6d0; padding:12px 0px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;}
+table.atsfltsearch thead th h2 { font-size:16px; line-height:20px; color:#fff;}
+table.atsfltsearch tr td.snInp { width:15px; text-align:center;}
+table.atsfltsearch tr td { border-right:1px solid #ccc;  padding:5px 0px 5px 5px;}
+table.atsfltsearch tr td.sortPanel { border-right:none; }
+table.atsfltsearch tr.flgdetails { border:1px solid #ccc; background:#fff; padding:3px 0px;}
+table.atsfltsearch tr.flgdetails:hover, table.atsfltsearch tr.flgdetails.selected { background:#fdf8d4; border:1px solid #fff;}
+table.atsfltsearch tr.flgdetails td table tr.popupDetails { border-top:1px dotted #ccc;}
+table.atsfltsearch tr.flgdetails td table tr td { border-right:none;}
+table.atsfltsearch tr.flgdetails td table tr td.airlineCarrLogo { text-align:center;}
+table.atsfltsearch tr.flgdetails td table tr td.airlineCarrLogo img { width:32px;}
+table.atsfltsearch tr.flgdetails td.fareDetailsPanel { text-align:center; padding-top:10px;}
+table.atsfltsearch tr.flgdetails td.fareDetailsPanel p {}
+table.atsfltsearch tr.flgdetails td.fareDetailsPanel p span.fareDplyNo { font-size:20px; text-align:right;}
+table.atsfltsearch tr.flgdetails td.fareDetailsPanel p span.actualFare { text-decoration:none;font-size:16px; text-align:right;}
+.txtRght { text-align:right; padding-right:2% !important;}
+.divFlightDtls { background:#eaeaea; padding:10px;}
+.divFlightDtls h3 { font-size:13px; }
+.dprtDtls { margin-top:10px; }
+.arrDtls { margin-top:10px; }
+.dprtDtls h4, .arrDtls h4 { font-size:13px; text-decoration:underline;}
+table.atsfltsearch tr.spaceBr { height:10px;}
+
+/*Outbound/Inbound*/
+table.atsfltsearch tr.flgdetails td div.outbnd,table.atsfltsearch tr.flgdetails td div.inbnd { padding:12px 5px 5px; border:1px solid #ccc; margin:15px 5px; position:relative;}
+table.atsfltsearch tr.flgdetails td div.outbnd h3,table.atsfltsearch tr.flgdetails td div.inbnd h3 { text-align:center; height:22px; line-height:22px; padding:0px 5px; width:auto; display:block; position:absolute; top:-12px; left:10px; color:#000; font-weight:bold;}
+table.atsfltsearch tr.flgdetails td div.outbnd h3 {background:#fff; }
+table.atsfltsearch tr.flgdetails td div.inbnd h3 {background:#fff; }
+
+.slcSctSmry { background:url(../images/lgtgrey-gradient.gif) repeat-x #ebebeb; border:1px solid #c8c8c8; position:fixed; bottom:0px; width:1000px; z-index :99;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px; 
+-webkit-box-shadow: 0px 0px 5px 0.5px #000000;
+-moz-box-shadow: 0px 0px 5px 0.5px #000000;
+box-shadow: 0px 0px 5px 0.5px #000000; }
+
+.slcSctSmryTlFare { width:48%; float:left; padding:2% 1%; }
+.slcSctSmryTlFare h3 { font-size:16px; line-height:26px;}
+.slcSctSmryTlFare h3 span { width:110px; display:inline-block; text-decoration:none;}
+.slcSctSmrySpcFare { width:40%; float:left; background:url(../images/blue-gradient.gif) repeat-x #226f9f; height:100px; color:#fff; }
+.slcSctSmrySpcFareCol { width:39%; float:left;  padding:20px; height:60px;}
+.slcSctSmryBtn { width:10%; float:right; background:url(../images/org-gradient.gif) repeat-x; color:#fff; text-transform:uppercase;  text-align:center;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 0px 10px 0px 0px;
+border-radius: 0px 10px 0px 0px;  }
+.slcSctSmryBtn a { font-size:22px; line-height:100px; color:#fff;}
+.slcSctSmryBtn a:hover { font-weight:bold; text-decoration:none;}
+
+
+ /*bubblePopUp*/
+.bubbleInfo {
+    position: relative;
+}
+.bubblePopUp {
+    background-color: #FFFED5;
+    border: 1px solid #F7CF71;
+    box-shadow: 3px 3px 2px #CCCCCC;
+    left: -375px;
+    padding: 5%;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    width: 454px;
+    z-index: 102;
+}
+.bubblePopUp h3 {
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.bubblePopUp p {
+    background: url("../icons/error.png") no-repeat scroll 0 2px transparent;
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 22px;
+}
+a.bubbleClose {
+    background: url("../images/bubble_close.gif") no-repeat scroll center center transparent;
+    font-size: 11px;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 14px;
+    z-index: 103;
+}
+a.bubbleClose:hover {
+    background-color: #FFF5BF;
+}
+div.bubbleArrow {
+    background: url("../images/bubble_arrow_right.png") no-repeat scroll center center transparent;
+    height: 25px;
+    position: absolute;
+    right: 9px;
+    top: -24px;
+    width: 25px;
+    z-index: 103;
+}
+.bubblePopUp dl.horizontal {
+    margin: 0;
+}
+.bubblePopUp dl.horizontal dt {
+    float: left;
+    font-weight: bold;
+    line-height: 12px;
+    text-align: right;
+    white-space: nowrap;
+    width: 90px;
+}
+.bubblePopUp dl.horizontal dd {
+    float: left;
+    line-height: 12px;
+    margin: 0 0 0 3px;
+    width: auto;
+}
+
+
+
+/*fareBrkdownTable*/
+table.fareCalculation {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #CCCCCC -moz-use-text-color #CCCCCC #CCCCCC;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+}
+table.fareCalculation thead {
+}
+table.fareCalculation thead th {
+    border-right: 1px solid #CCCCCC;
+    color: #FFFFFF;    
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    padding:5px 0px;
+   
+}
+table.fareCalculation tr td {
+    border-right: 1px solid #CCCCCC !important;
+    color: #000000;
+    font-weight: normal;
+}
+.total {
+    background-color: #BCD1E7;
+    height: 21px;
+}
+table.fareCalculation td.brdnone {
+    border-right: 1px solid #FFFFFF;
+}
+table.fareCalculation td.miniCell, .fareCalculation th.miniCell {
+    width: 8%;
+}
+
+
+
+/*BookingPanel*/
+.bookingPanel {}
+.bookingPanel h2 { font-size:16px; font-weight:bold; border-bottom:1px dotted #515357;}
+.passInfo { border:4px solid #ccc; margin-top:20px; padding:15px 15px 8px; position:relative; background:#fff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; }
+.passInfo h3 { background:#0089cb; text-align:center; height:22px; line-height:22px; padding:0px 10px; width:auto; display:block; position:absolute; top:-12px; left:10px; color:#fff; border:1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; }
+.bookingPanel input { width:125px;}
+.bookingPanel select { height:20px;}
+ul.detailsGrid { display:block; margin-bottom:10px;}
+ul.detailsGrid li { float:left; width:140px;}
+ul.detailsGrid li.tltblk { width:75px;} 
+ul.detailsGrid li.tltblk select { width:65px;}
+ul.detailsGrid li label { display:block; font-weight:bold;}
+.adsInfo {background:#edf3f9; padding:10px; width:auto; display:block; color:#000; border:1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; }
+.adsInfo h4 { font-size:13px !important; border-bottom: none  !important; margin-bottom: 0px  !important; padding-left: 0px  !important; cursor:pointer;}
+.adsInfo div.inpDtls { padding:10px 0px 0px; border-top:1px dotted #515357;}
+
+
+/*Price quotation details*/
+.pricequotation { margin:0px; overflow:hidden; width:700px; border:1px solid #ccc;  }
+.pricequotationDtls thead th { border-right:1px solid #ccc; padding-left:5px; background-color:#eaeaea;}
+.pricequotationDtls tr td {  border-right:1px solid #ccc; padding-left:5px; }
+.faretotal { background-color:#bcd1e7;}
+.grandFaretotal { background-color:#666; border-top:1px solid #666; color:#fff; height:21px;}
+.pricequotationDtls td.brdnone { border-right:1px solid #fff; }
+
+/*global*/
+.txtStrike { text-decoration:none;}
+.brdRgt {border-right:1px solid #ccc;}
+.rgtAlgnTxt { text-align:right;}
+.whtBrd { border-right:1px solid #fff !important; padding-right:10px;}
+.brdTop { border-top:1px solid #ccc !important;}
+.blcBrdTop { border-top:1px solid #666 !important;}
+
+select, textarea {
+    width: 121px;
+}
+input { font-size:12px;}
